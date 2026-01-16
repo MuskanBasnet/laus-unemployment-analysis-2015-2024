@@ -1,0 +1,5 @@
+# Ignore data exports
+*.csv
+
+# OS junk
+.DS_Store
