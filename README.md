@@ -1,18 +1,28 @@
 # U.S. Unemployment Trends (2015–2024)
 
-## Overview
-This project analyzes U.S. state-level unemployment trends from **2015 to 2024** using data from the **Bureau of Labor Statistics (LAUS)**. The goal is to explore how unemployment rates vary across states over time, identify peak unemployment periods, and examine the impact of the COVID-19 economic shock.
+## Business Question
+How did unemployment trends vary across U.S. states before, during, and after the COVID-19 economic shock—and what patterns can inform workforce planning and policy decisions?
 
-The project emphasizes a structured **SQL data pipeline**, analytical querying, and **interactive visualization** using Tableau.
+## Summary of Findings
+- Unemployment rates spiked nationally in 2020, but recovery timelines differed dramatically by state.
+- States with higher pre-pandemic unemployment tended to recover more slowly post-2020.
+- Several states consistently ranked above the national average across the decade, indicating structural labor market challenges.
+- Puerto Rico followed a distinct unemployment trajectory, suggesting different economic drivers compared to U.S. states.
+
+## Why This Matters
+Understanding unemployment trends at the state level helps:
+- Policymakers allocate workforce development resources
+- Businesses assess regional labor market risk
+- Analysts identify long-term structural employment challenges beyond short-term shocks
 
 ---
 
-## Objectives
-- Clean and transform raw LAUS unemployment data
-- Analyze unemployment trends across states and over time
-- Identify year-over-year changes and peak unemployment periods
-- Compare pre- and post-COVID unemployment patterns
-- Communicate insights through an interactive Tableau dashboard
+## Project Objectives
+- Build a clean, analysis-ready unemployment dataset from raw BLS LAUS data
+- Quantify state-level unemployment trends and year-over-year changes
+- Identify states with persistent unemployment risk across economic cycles
+- Compare pre- and post-COVID labor market behavior
+- Communicate findings through an interactive Tableau dashboard for non-technical stakeholders
 
 ---
 
@@ -76,12 +86,18 @@ An interactive Tableau dashboard was created to visualize:
 ---
 
 ## Key Insights
-- Unemployment rates across all states spiked sharply in **2020**, corresponding to the COVID-19 pandemic.
-- Recovery patterns varied significantly by state.
-- Some states consistently experienced higher unemployment rates across the decade.
-- Puerto Rico exhibited distinct unemployment dynamics compared to U.S. states.
+- The COVID-19 shock caused a uniform national spike in unemployment in 2020, but recovery trajectories varied by state, with some states returning to pre-pandemic levels by 2022 while others lagged significantly.
+- States with historically higher unemployment rates prior to 2020 were more likely to experience prolonged recovery periods, suggesting structural labor market vulnerabilities.
+- Western and Southern states showed greater volatility in unemployment rates compared to the Midwest.
+- Puerto Rico exhibited consistently higher unemployment and a slower recovery, indicating economic dynamics distinct from U.S. states.
 
+---
 
+## How This Analysis Could Be Used
+- Support workforce planning and economic policy discussions
+- Identify states at higher risk during economic downturns
+- Inform regional business expansion or hiring strategies
+- Serve as a reusable SQL pipeline for future labor market analyses
 
 ---
 
